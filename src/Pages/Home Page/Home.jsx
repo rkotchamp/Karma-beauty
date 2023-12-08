@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+import logoAvatar from "../../assets/eva.png";
 
 import "./Home.css";
 
@@ -19,7 +20,26 @@ function Home({ data }) {
   });
   return (
     <div className="home-container">
+      <div className="navBar">
+        <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
+        <nav>
+          <ul className="nav__links">
+            <li className="links home">Home</li>
+            <li className="links service">Service</li>
+            <li className="links about">About</li>
+            <li className="links contact">Contact</li>
+          </ul>
+        </nav>
+      </div>
       <div className="carousel">
+        <div className="mainPageTextAndButton">
+          <div className="headersLetters">
+            <h1 className="headersLetters-h1">Where Glamour</h1>
+            <h1> Meets Perfection</h1>
+          </div>
+          <button className="btn">Book Now</button>
+        </div>
+
         <BsArrowLeftCircleFill
           className="arrow arrow-left"
           onClick={previousSlide}
