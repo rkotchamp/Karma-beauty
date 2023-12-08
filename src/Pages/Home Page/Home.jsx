@@ -81,6 +81,7 @@ function Home({ data }) {
           </p>
         </div>
       </div>
+      <div className="cards"></div>
     </div>
   );
 }
