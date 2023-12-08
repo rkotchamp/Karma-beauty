@@ -70,6 +70,17 @@ function Home({ data }) {
           })}
         </span>
       </div>
+      <div className="info-column">
+        <div className="texts">
+          <h3 className="info-one">Give Your body a little Love</h3>
+          <p>
+            With over 10 years as a Registered Nurse hair and beauty, Karma
+            hairsalon By Eva Lakotos strives in making you feel confident and
+            happy with your skin. Inspired by the latest evidence based
+            treatments to achieve your aesthetic goals.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -121,3 +121,27 @@
   border: none;
   border-radius: 10px;
 }
+
+.info-column {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+
+.info-one {
+  font-size: 50px;
+}
+
+.texts p {
+  font-size: 18px;
+}
