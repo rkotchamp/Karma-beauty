@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import logoAvatar from "../../assets/eva.png";
+import Cards from "../../Components/Cards/Cards";
 
 import "./Home.css";
 
@@ -81,7 +82,11 @@ function Home({ data }) {
           </p>
         </div>
       </div>
-      <div className="cards"></div>
+      <div className="cards">
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
     </div>
   );
 }

@@ -96,6 +96,11 @@
 .links {
   list-style: none;
   color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.links:hover {
+  border-bottom: 2px solid #ffd700;
 }
 
 .mainPageTextAndButton {
@@ -128,7 +133,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffd700;
+  /* background-color: #ffd700; */
 }
 .texts {
   text-align: justify;
@@ -145,4 +150,11 @@
 
 .texts p {
   font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
