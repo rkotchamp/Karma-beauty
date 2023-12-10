@@ -34,21 +34,23 @@ function Home({ data }) {
     <div className="home-container">
       <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
-        {showNav && (
-          <nav className="nav">
-            <ul className="nav__links">
-              <li className="links home">Home</li>
-              <li className="links service">Service</li>
-              <li className="links about">About</li>
-              <li className="links contact">Contact</li>
-              <button className="link-btn" onClick={handleUnshowNav}>
-                &times;
-              </button>
-            </ul>
-          </nav>
-        )}
 
-        <GiHamburgerMenu className="burger" onClick={handleShowNav} />
+        <nav className={showNav ? "nav" : "inactive"}>
+          <ul className="nav__links">
+            <li className="links home">Home</li>
+            <li className="links service">Service</li>
+            <li className="links about">About</li>
+            <li className="links contact">Contact</li>
+            <button className="link-btn" onClick={handleUnshowNav}>
+              &times;
+            </button>
+          </ul>
+        </nav>
+
+        <GiHamburgerMenu
+          className={showNav ? "inactive" : "burger"}
+          onClick={handleShowNav}
+        />
       </div>
       <div className="carousel">
         <div className="mainPageTextAndButton">

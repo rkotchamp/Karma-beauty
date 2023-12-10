@@ -102,6 +102,7 @@
 
 .links:hover {
   border-bottom: 2px solid #ffd700;
+  color: #ffd700;
 }
 .link-btn {
   background-color: transparent;
@@ -189,6 +190,7 @@
   .burger {
     display: block;
     color: #fff;
+    cursor: pointer;
   }
   .link-btn {
     display: block;
@@ -209,6 +211,9 @@
     align-items: center;
     padding-top: 250px;
   }
+  .inactive {
+    display: none;
+  }
   .nav__links {
     /* position: absolute; */
     display: flex;
@@ -222,5 +227,18 @@
 
   .links:hover {
     color: #ffd700;
+  }
+  .btn {
+    width: 100px;
+    height: 40px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 10px;
+  }
+  .info-one {
+    font-size: 30px;
+  }
+  .texts {
+    width: 90%;
   }
 }
