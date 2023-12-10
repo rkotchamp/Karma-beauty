@@ -63,5 +63,41 @@
   padding-top: 8px;
 }
 
-@media only screenm and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 20px;
+  }
+  .footer-headers {
+    font-size: 15px;
+  }
+  .opening-hours {
+    display: flex;
+  }
+  .hours {
+    font-size: 12px;
+    width: 100%;
+  }
+  .book-text p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .book-now {
+    width: 100%;
+  }
+  .footer-unordered li {
+    padding-top: 8px;
+    font-size: 12px;
+  }
+  .footer-btn {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    background-color: #000;
+    color: #ffd900;
+    border: none;
+  }
 }
