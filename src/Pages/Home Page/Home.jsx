@@ -4,6 +4,7 @@ import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 import "./Home.css";
 
@@ -40,8 +41,11 @@ function Home({ data }) {
           <ul className="nav__links">
             <li className="links home">Home</li>
             <li className="links service">Service</li>
+
             <li className="links about">About</li>
-            <li className="links contact">Contact</li>
+            <Link to="/contact">
+              <li className="links contact">Contact</li>
+            </Link>
             <button className="link-btn" onClick={handleUnshowNav}>
               &times;
             </button>
