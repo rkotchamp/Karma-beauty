@@ -3,6 +3,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Footer from "../../Components/Footer/Footer";
 
 import "./Home.css";
 
@@ -106,6 +107,9 @@ function Home({ data }) {
         <Cards />
         <Cards />
         <Cards />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
