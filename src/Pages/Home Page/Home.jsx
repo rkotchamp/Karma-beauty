@@ -2,17 +2,28 @@ import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import "./Home.css";
 
 function Home({ data }) {
   const [slide, setSlides] = useState(0);
+  const [showNav, setShowNav] = useState(false);
+
+  const handleShowNav = () => {
+    setShowNav(true);
+  };
+  const handleUnshowNav = () => {
+    setShowNav(false);
+  };
   const nextSlide = () => {
     setSlides(slide === data.length - 1 ? 0 : slide + 1);
   };
+
   const previousSlide = () => {
     setSlides(slide === 0 ? data.length - 1 : slide - 1);
   };
+
   useEffect(() => {
     const intervalID = setInterval(() => {
       nextSlide();
@@ -23,14 +34,21 @@ function Home({ data }) {
     <div className="home-container">
       <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
-        <nav>
-          <ul className="nav__links">
-            <li className="links home">Home</li>
-            <li className="links service">Service</li>
-            <li className="links about">About</li>
-            <li className="links contact">Contact</li>
-          </ul>
-        </nav>
+        {showNav && (
+          <nav className="nav">
+            <ul className="nav__links">
+              <li className="links home">Home</li>
+              <li className="links service">Service</li>
+              <li className="links about">About</li>
+              <li className="links contact">Contact</li>
+              <button className="link-btn" onClick={handleUnshowNav}>
+                &times;
+              </button>
+            </ul>
+          </nav>
+        )}
+
+        <GiHamburgerMenu className="burger" onClick={handleShowNav} />
       </div>
       <div className="carousel">
         <div className="mainPageTextAndButton">
