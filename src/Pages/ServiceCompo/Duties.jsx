@@ -1,6 +1,7 @@
 import Footer from "../../Components/Footer/Footer";
 import NavBar from "../../Components/NavBar/NavBar";
 import { services } from "../../services.json";
+import { Link } from "react-router-dom";
 import "./Duties.css";
 
 function Duties() {
@@ -19,8 +20,10 @@ function Duties() {
                 <h4>{item.service}</h4>
                 <p>{item.text}</p>
               </div>
-              <div>
-                <button className="">Book Now</button>
+              <div className="service-btn-container">
+                <Link to="/contact">
+                  <button className="service-btn">Book Now</button>
+                </Link>
               </div>
             </div>
           );
