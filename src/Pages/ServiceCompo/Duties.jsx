@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "./Duties.css";
 
 function Duties() {
-  console.log(services);
   return (
     <div className="duties-container">
       <NavBar />

@@ -69,7 +69,7 @@ function Contact() {
           <form ref={form} onSubmit={sendEmail} className="form">
             <div className="input-container">
               <label>Service</label>
-              <select name="service" id="">
+              <select name="service" id="" className="selectOptions">
                 <option value="">select your service</option>
                 <option value="Decolorare">Decolorare</option>
                 <option value="Tuns Barbat">Tuns Barbat</option>
