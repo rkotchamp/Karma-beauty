@@ -1,9 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import logoAvatar from "../../assets/eva.png";
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
+import NavBar from "../../Components/NavBar/NavBar";
 
 import "./Contact.css";
 
@@ -38,7 +36,8 @@ function Contact() {
 
   return (
     <div className="contact-container">
-      <div className="navBar">
+      <NavBar />
+      {/* <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
 
         <nav className={showNav ? "nav" : "inactive"}>
@@ -60,48 +59,52 @@ function Contact() {
           className={showNav ? "inactive" : "burger"}
           onClick={handleShowNav}
         />
-      </div>
-      <div className="contact-content">
-        <form ref={form} onSubmit={sendEmail} className="form">
-          <div className="input-container">
-            <label>Service</label>
-            <select name="service" id="">
-              <option value="">select your service</option>
-              <option value="Decolorare">Decolorare</option>
-              <option value="Tuns Barbat">Tuns Barbat</option>
-              <option value="Pachet Tuns si barba">Pachet Tuns si barba</option>
-              <option value="Pachet Tuns Dama">Pachet Tuns Dama</option>
-              <option value="Vopsit">Vopsit</option>
-              <option value="Vopsit ombre">Vopsit ombre</option>
-              <option value="spalat si coafat de zi">
-                spalat si coafat de zi
-              </option>
-              <option value="Coafat Evenimente"> Coafat Evenimente</option>
-              <option value="Manichiura si pedichiura">
-                Manichiura si pedichiura
-              </option>
-              <option value="Makeup"> Makeup</option>
-              <option value="Manichiura"> Manichiura</option>
-              <option value="Ungii gel"> Ungii gel</option>
-            </select>
-          </div>
-          <div className="input-container">
-            <label>Name</label>
-            <input type="text" name="user_name" className="input" />
-          </div>
-          <div className="input-container">
-            <label>Email</label>
-            <input type="email" name="user_email" className="input" />
-          </div>
+      </div> */}
+      <div className="contact-controller">
+        <div className="contact-content">
+          <form ref={form} onSubmit={sendEmail} className="form">
+            <div className="input-container">
+              <label>Service</label>
+              <select name="service" id="">
+                <option value="">select your service</option>
+                <option value="Decolorare">Decolorare</option>
+                <option value="Tuns Barbat">Tuns Barbat</option>
+                <option value="Pachet Tuns si barba">
+                  Pachet Tuns si barba
+                </option>
+                <option value="Pachet Tuns Dama">Pachet Tuns Dama</option>
+                <option value="Vopsit">Vopsit</option>
+                <option value="Vopsit ombre">Vopsit ombre</option>
+                <option value="spalat si coafat de zi">
+                  spalat si coafat de zi
+                </option>
+                <option value="Coafat Evenimente"> Coafat Evenimente</option>
+                <option value="Manichiura si pedichiura">
+                  Manichiura si pedichiura
+                </option>
+                <option value="Makeup"> Makeup</option>
+                <option value="Manichiura"> Manichiura</option>
+                <option value="Ungii gel"> Ungii gel</option>
+              </select>
+            </div>
+            <div className="input-container">
+              <label>Name</label>
+              <input type="text" name="user_name" className="input" />
+            </div>
+            <div className="input-container">
+              <label>Email</label>
+              <input type="email" name="user_email" className="input" />
+            </div>
 
-          <div className="input-container">
-            <label>Message</label>
-            <textarea name="message" className="input" />
-          </div>
-          <div className="contact-btn-Container">
-            <input type="submit" value="Send" className="contact-btn" />
-          </div>
-        </form>
+            <div className="input-container">
+              <label>Message</label>
+              <textarea name="message" className="input" />
+            </div>
+            <div className="contact-btn-Container">
+              <input type="submit" value="Send" className="contact-btn" />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

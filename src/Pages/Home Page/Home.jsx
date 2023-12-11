@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
-import logoAvatar from "../../assets/eva.png";
+// import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import Footer from "../../Components/Footer/Footer";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
+import NavBar from "../../Components/NavBar/NavBar";
 import "./Home.css";
 
 function Home({ data }) {
@@ -34,7 +35,8 @@ function Home({ data }) {
   });
   return (
     <div className="home-container">
-      <div className="navBar">
+      <NavBar />
+      {/* <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
 
         <nav className={showNav ? "nav" : "inactive"}>
@@ -56,7 +58,7 @@ function Home({ data }) {
           className={showNav ? "inactive" : "burger"}
           onClick={handleShowNav}
         />
-      </div>
+      </div> */}
       <div className="carousel">
         <div className="mainPageTextAndButton">
           <div className="headersLetters">

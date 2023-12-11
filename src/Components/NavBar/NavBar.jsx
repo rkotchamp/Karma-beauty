@@ -1,14 +1,30 @@
+import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import logoAvatar from "../../assets/eva.png";
+import { useContext } from "react";
+import ShowNavContext from "../../context/ShowNav";
+
 import "./NavBar.css";
 
 function NavBar() {
+  const { showNavBar, setShowNavBar } = useContext(ShowNavContext);
+
+  const handleShowNav = () => {
+    setShowNavBar(true);
+  };
+  const handleUnshowNav = () => {
+    setShowNavBar(false);
+  };
   return (
     <div>
       <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
 
-        <nav className={showNav ? "nav" : "inactive"}>
+        <nav className={showNavBar ? "nav" : "inactive"}>
           <ul className="nav__links">
-            <li className="links home">Home</li>
+            <Link to="/">
+              <li className="links home">Home</li>
+            </Link>
             <li className="links service">Service</li>
 
             <li className="links about">About</li>
@@ -22,7 +38,7 @@ function NavBar() {
         </nav>
 
         <GiHamburgerMenu
-          className={showNav ? "inactive" : "burger"}
+          className={showNavBar ? "inactive" : "burger"}
           onClick={handleShowNav}
         />
       </div>
