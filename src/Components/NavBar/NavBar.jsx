@@ -25,9 +25,12 @@ function NavBar() {
             <Link to="/">
               <li className="links home">Home</li>
             </Link>
-            <li className="links service">Service</li>
-
-            <li className="links about">About</li>
+            <Link to="/service">
+              <li className="links service">Service</li>
+            </Link>
+            <Link to="/about">
+              <li className="links about">About</li>
+            </Link>
             <Link to="/contact">
               <li className="links contact">Contact</li>
             </Link>

@@ -17,6 +17,9 @@
   align-items: center;
   gap: 30px;
 }
+.nav__links a {
+  text-decoration: none;
+}
 
 .links {
   list-style: none;

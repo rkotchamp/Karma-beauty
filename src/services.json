@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Experience a stylish Fading Haircut for Men. Our skilled barbers will give you a contemporary look that suits your personality.",
+      "service": "Fading Haircut Men"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1594051843839-c96c81ae011a?q=80&w=2204&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Indulge in our Trim and Beard Package, where precision meets grooming. Achieve a polished and well-maintained appearance.",
+      "service": "Trim and Beard Package"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1511920922889-5c35bfd95a7f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Treat yourself with our Ladies Haircut Package. Our expert stylists will create a look that complements your individual style.",
+      "service": "Ladies Haircut Package"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1617391654484-2894196c2cc9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Transform your hair with our Painted Ombre Dyed service. Get a unique and vibrant look that showcases your personality.",
+      "service": "Painted Ombre Dyed"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Enjoy a day of pampering with our Washed and Styled for the Day service. Our skilled team will leave you feeling refreshed and fabulous.",
+      "service": "Washed and Styled for the Day"
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Pamper your hands and feet with our Manicure and Pedicure services. Relax as our skilled technicians enhance the beauty of your nails.",
+      "service": "Manicure and Pedicure"
+    },
+    {
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1643185450492-6ba77dea00f6?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Discover the artistry of our Makeup service. Our makeup artists will create a look that enhances your features and suits the occasion.",
+      "service": "Makeup"
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1457972729786-0411a3b2b626?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Indulge in the luxury of our Manicure with Gel Ointments. Enjoy long-lasting and vibrant nails that make a statement.",
+      "service": "Manicure with Gel Ointments"
+    }
+  ]
+}

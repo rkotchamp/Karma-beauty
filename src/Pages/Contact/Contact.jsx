@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import NavBar from "../../Components/NavBar/NavBar";
+import Footer from "../../Components/Footer/Footer";
 
 import "./Contact.css";
 
@@ -109,6 +110,7 @@ function Contact() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
@@ -18,10 +19,18 @@ function Footer() {
       <div className="navigation">
         <h5 className="footer-headers">Navigation</h5>
         <ul className="footer-unordered">
-          <li>Home</li>
-          <li>Service</li>
-          <li>About</li>
-          <li>Contact</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/service">
+            <li>Service</li>
+          </Link>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+          <Link to="/contact">
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
       <div className="opening-hours">
@@ -43,7 +52,9 @@ function Footer() {
             Ready to love your skin again? Book in a consultation to discuss
             your concerns and the best treatments available.
           </p>
-          <button className="footer-btn">Contact Karma</button>
+          <Link to="/contact">
+            <button className="footer-btn">Contact Karma</button>
+          </Link>
           <div className="social-media">
             <AiFillInstagram />
             <FaFacebook />
