@@ -4,7 +4,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import Cards from "../../Components/Cards/Cards";
 // import { GiHamburgerMenu } from "react-icons/gi";
 import Footer from "../../Components/Footer/Footer";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Home.css";
@@ -65,7 +65,9 @@ function Home({ data }) {
             <h1 className="headersLetters-h1">Where Glamour</h1>
             <h1> Meets Perfection</h1>
           </div>
-          <button className="btn">Book Now</button>
+          <Link to="/contact">
+            <button className="btn">Book Now</button>
+          </Link>
         </div>
 
         <BsArrowLeftCircleFill

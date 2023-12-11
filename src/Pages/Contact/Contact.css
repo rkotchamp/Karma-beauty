@@ -5,12 +5,18 @@
 
 .contact-controller {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+  gap: 10px;
 }
 
+.appointment-header h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
 .contact-content {
   width: 60%;
   height: 70vh;
@@ -34,6 +40,8 @@
 .input {
   width: 70%;
   height: 60px;
+  border: none;
+  padding-left: 10px;
 }
 
 .contact-btn {
@@ -47,4 +55,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+textarea {
+  resize: none;
 }

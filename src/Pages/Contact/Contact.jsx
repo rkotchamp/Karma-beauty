@@ -61,6 +61,9 @@ function Contact() {
         />
       </div> */}
       <div className="contact-controller">
+        <div className="appointment-header">
+          <h1>Book Appointment</h1>
+        </div>
         <div className="contact-content">
           <form ref={form} onSubmit={sendEmail} className="form">
             <div className="input-container">
@@ -97,7 +100,7 @@ function Contact() {
             </div>
 
             <div className="input-container">
-              <label>Message</label>
+              <label>Description</label>
               <textarea name="message" className="input" />
             </div>
             <div className="contact-btn-Container">
