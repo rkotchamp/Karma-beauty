@@ -56,7 +56,6 @@
     background-color: rgb(244, 241, 241);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
   }
   .texts-info h4 {
     font-size: 20px;
@@ -71,5 +70,9 @@
   }
   .texts-info p {
     font-size: 14px;
+  }
+  .card-container a {
+    text-decoration: none;
+    color: #000;
   }
 }
