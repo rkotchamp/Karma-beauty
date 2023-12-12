@@ -13,12 +13,6 @@ function Home({ data }) {
   const [slide, setSlides] = useState(0);
   const [showNav, setShowNav] = useState(false);
 
-  const handleShowNav = () => {
-    setShowNav(true);
-  };
-  const handleUnshowNav = () => {
-    setShowNav(false);
-  };
   const nextSlide = () => {
     setSlides(slide === data.length - 1 ? 0 : slide + 1);
   };
