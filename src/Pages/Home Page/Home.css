@@ -240,6 +240,8 @@
   }
   .texts {
     width: 90%;
+    height: auto;
+    margin: 50px auto;
   }
   .cards {
     display: flex;
