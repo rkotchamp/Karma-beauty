@@ -238,10 +238,14 @@
   .info-one {
     font-size: 20px;
   }
+  .info-column {
+    height: auto;
+
+    padding: 30px;
+  }
   .texts {
     width: 90%;
-    height: auto;
-    margin: 50px auto;
+    /* height: auto; */
   }
   .cards {
     display: flex;
