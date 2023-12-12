@@ -20,7 +20,10 @@ function NavBar() {
       <div className="navBar">
         <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
 
-        <nav className={showNavBar ? "nav" : "inactive"}>
+        <nav
+          className={showNavBar ? "nav" : "inactive"}
+          onClick={() => setShowNavBar(!showNavBar)}
+        >
           <ul className="nav__links">
             <Link to="/">
               <li className="links home">Home</li>
