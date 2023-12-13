@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 // import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
+import { IoLogoWhatsapp } from "react-icons/io";
 // import { GiHamburgerMenu } from "react-icons/gi";
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
@@ -72,6 +73,11 @@ function Home({ data }) {
           })}
         </span>
       </div>
+      <span className="whatsappContainer">
+        <Link to="https://wa.me/732756294">
+          <IoLogoWhatsapp className="whatsappLogo" />
+        </Link>
+      </span>
       <div className="info-column">
         <div className="texts">
           <h3 className="info-one">Give Your body a little Love</h3>

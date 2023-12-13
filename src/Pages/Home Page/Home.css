@@ -171,7 +171,17 @@
   align-items: center;
   gap: 10px;
 }
-
+.whatsappLogo {
+  width: 50px;
+  height: 50px;
+  color: rgb(59, 153, 122);
+  /* text-shadow: 0 0 10px #000; */
+}
+.whatsappContainer {
+  padding-top: 20px;
+  position: fixed;
+  left: 2.5rem;
+}
 @media only screen and (max-width: 600px) {
   .carousel {
     height: 30%;
@@ -253,5 +263,16 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+  .whatsappContainer {
+    background-color: red;
+    padding-top: 20px;
+  }
+  .whatsappLogo {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 1.5rem;
+    color: rgb(59, 153, 122);
   }
 }
