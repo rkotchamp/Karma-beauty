@@ -3,6 +3,8 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import NavBar from "../../Components/NavBar/NavBar";
 import Footer from "../../Components/Footer/Footer";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 import "./Contact.css";
 
@@ -58,6 +60,11 @@ function Contact() {
         <div className="appointment-header">
           <h1>Book Appointment</h1>
         </div>
+        <span className="whatsappContainer">
+          <Link to="https://wa.me/732756294">
+            <IoLogoWhatsapp className="whatsappLogo" />
+          </Link>
+        </span>
         <div className="contact-content">
           <form ref={form} onSubmit={sendEmail} className="form">
             <div className="input-container">

@@ -84,6 +84,17 @@ textarea {
 .error-container p {
   color: #ea3737;
 }
+.whatsappLogo {
+  width: 50px;
+  height: 50px;
+  color: rgb(59, 153, 122);
+  /* text-shadow: 0 0 10px #000; */
+}
+.whatsappContainer {
+  padding-top: 20px;
+  position: fixed;
+  left: 2.5rem;
+}
 
 @media only screen and (max-width: 600px) {
   .contact-content {
@@ -96,5 +107,15 @@ textarea {
   }
   .appointment-header h1 {
     font-size: 30px;
+  }
+  .whatsappContainer {
+    left: 1rem;
+  }
+  .whatsappLogo {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 1.5rem;
+    color: rgb(59, 153, 122);
   }
 }
