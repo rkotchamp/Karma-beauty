@@ -18,7 +18,9 @@ function NavBar() {
   return (
     <div>
       <div className="navBar">
-        <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
+        <Link to="/">
+          <img src={logoAvatar} alt="karma Logo" className="imageLogo" />
+        </Link>
 
         <nav
           className={showNavBar ? "nav" : "inactive"}
