@@ -74,11 +74,25 @@ textarea {
   height: auto;
   background-color: #fff;
 }
+.error-container {
+  display: flex;
+  width: 100%;
+  /* height: 40px; */
+  justify-content: center;
+  align-items: center;
+}
+.error-container p {
+  color: #ea3737;
+}
 
 @media only screen and (max-width: 600px) {
   .contact-content {
     width: 90%;
     background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .appointment-header h1 {
     font-size: 30px;

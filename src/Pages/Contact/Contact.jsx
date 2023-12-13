@@ -7,17 +7,32 @@ import Footer from "../../Components/Footer/Footer";
 import "./Contact.css";
 
 function Contact() {
-  const [showNav, setShowNav] = useState(false);
   const form = useRef();
-  const handleUnshowNav = () => {
-    setShowNav(false);
-  };
-  const handleShowNav = () => {
-    setShowNav(true);
-  };
+  const [error, setError] = useState("");
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const serviceName = e.target.service.value;
+    const userName = e.target.user_name.value;
+    const userEmail = e.target.user_email.value;
+    const message = e.target.message.value;
+
+    if (!serviceName || serviceName === "") {
+      setError("Please select a service");
+      return;
+    }
+    if (!userName || userName === "") {
+      setError("Please enter a name");
+      return;
+    }
+    if (!userEmail || userEmail === "") {
+      setError("Please enter an email");
+      return;
+    }
+    if (!message || message === "") {
+      setError("Please enter a message");
+      return;
+    }
     emailjs
       .sendForm(
         "service_9d41f7g",
@@ -85,6 +100,11 @@ function Contact() {
             <div className="contact-btn-Container">
               <input type="submit" value="Send" className="contact-btn" />
             </div>
+            {error && (
+              <div className="error-container">
+                <p>{error}</p>
+              </div>
+            )}
           </form>
         </div>
       </div>
