@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
-// import logoAvatar from "../../assets/eva.png";
 import Cards from "../../Components/Cards/Cards";
 import { IoLogoWhatsapp } from "react-icons/io";
-// import { GiHamburgerMenu } from "react-icons/gi";
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
 
@@ -12,7 +10,6 @@ import "./Home.css";
 
 function Home({ data }) {
   const [slide, setSlides] = useState(0);
-  const [showNav, setShowNav] = useState(false);
 
   const nextSlide = () => {
     setSlides(slide === data.length - 1 ? 0 : slide + 1);
