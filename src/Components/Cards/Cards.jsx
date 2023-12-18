@@ -1,6 +1,4 @@
-import blonde from "../../assets/blonde.jpeg";
-import { imageCards } from "../../imageCards.json";
-
+import { imageCards } from "../../imageCards";
 import "./Cards.css";
 
 function Cards() {
@@ -11,11 +9,7 @@ function Cards() {
           <div className="card-container" key={i}>
             <div className="image-container">
               <img
-                src={
-                  eachCard.imagePath.startsWith("http")
-                    ? eachCard.imagePath
-                    : `../../assets/${eachCard.imagePath}`
-                }
+                src={eachCard.imagePath}
                 alt=""
                 className="image-background"
               />
