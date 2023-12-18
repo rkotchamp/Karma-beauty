@@ -1,25 +1,37 @@
 import blonde from "../../assets/blonde.jpeg";
+import { imageCards } from "../../imageCards.json";
 
 import "./Cards.css";
 
 function Cards() {
   return (
-    <div className="card-container">
-      <div className="image-container">
-        <img src={blonde} alt="" className="image-background" />
-      </div>
+    <>
+      {imageCards.map((eachCard, i) => {
+        return (
+          <div className="card-container" key={i}>
+            <div className="image-container">
+              <img
+                src={
+                  eachCard.imagePath.startsWith("http")
+                    ? eachCard.imagePath
+                    : `../../assets/${eachCard.imagePath}`
+                }
+                alt=""
+                className="image-background"
+              />
+            </div>
 
-      <div className="info-for-cards">
-        <div className="texts-info">
-          <h4>Clinic Locations</h4>
-          <p>
-            See where you can find Karma Beauty and book your next appointment
-            at the preferred location, closest to you.
-          </p>
-        </div>
-        <button className="info-btn"> Locations</button>
-      </div>
-    </div>
+            <div className="info-for-cards">
+              <div className="texts-info">
+                <h4>{eachCard.textHeader}</h4>
+                <p>{eachCard.textParagraph}</p>
+              </div>
+              <button className="info-btn"> {eachCard.btnText}</button>
+            </div>
+          </div>
+        );
+      })}
+    </>
   );
 }
 

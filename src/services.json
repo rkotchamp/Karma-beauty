@@ -3,50 +3,62 @@
     {
       "id": 1,
       "image": "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Experience a stylish Fading Haircut for Men. Our skilled barbers will give you a contemporary look that suits your personality.",
-      "service": "Fading Haircut Men"
+      "text": "Experiență un tuns modern pentru bărbați. Bărberii noștri pricepuți îți vor oferi un aspect contemporan care se potrivește personalității tale.",
+      "service": "Tuns Fading pentru Bărbați"
     },
     {
       "id": 2,
       "image": "https://images.unsplash.com/photo-1594051843839-c96c81ae011a?q=80&w=2204&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Indulge in our Trim and Beard Package, where precision meets grooming. Achieve a polished and well-maintained appearance.",
-      "service": "Trim and Beard Package"
+      "text": "Bucură-te de pachetul nostru de tuns și îngrijire pentru barbă, unde precizia se întâlnește cu grooming-ul. Obține un aspect îngrijit și bine întreținut.",
+      "service": "Pachet: Tuns și Îngrijire Barba"
     },
     {
       "id": 3,
       "image": "https://images.unsplash.com/photo-1511920922889-5c35bfd95a7f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Treat yourself with our Ladies Haircut Package. Our expert stylists will create a look that complements your individual style.",
-      "service": "Ladies Haircut Package"
+      "text": "Răsfață-te cu pachetul nostru de tuns pentru doamne. Stiliștii noștri experți vor crea un look care completează stilul tău individual.",
+      "service": "Pachet: Tuns pentru Doamne"
     },
     {
       "id": 4,
       "image": "https://images.unsplash.com/photo-1617391654484-2894196c2cc9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Transform your hair with our Painted Ombre Dyed service. Get a unique and vibrant look that showcases your personality.",
-      "service": "Painted Ombre Dyed"
+      "text": "Transformă-ți părul cu serviciul nostru de vopsire Ombre. Obține un aspect unic și vibrant care reflectă personalitatea ta.",
+      "service": "Vopsire Ombre"
     },
     {
       "id": 5,
       "image": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Enjoy a day of pampering with our Washed and Styled for the Day service. Our skilled team will leave you feeling refreshed and fabulous.",
-      "service": "Washed and Styled for the Day"
+      "text": "Bucură-te de o zi de răsfăț cu serviciul nostru de spălat și stilizat pentru ziua respectivă. Echipa noastră pricepută te va lăsa să te simți revigorat și fabulos.",
+      "service": "Spălat și Stilizat pentru Ziua"
     },
     {
       "id": 7,
       "image": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Pamper your hands and feet with our Manicure and Pedicure services. Relax as our skilled technicians enhance the beauty of your nails.",
-      "service": "Manicure and Pedicure"
+      "text": "Răsfață-ți mâinile și picioarele cu serviciile noastre de manichiură și pedichiură. Relaxază-te în timp ce tehnicienii noștri pricepuți îmbunătățesc frumusețea unghiilor tale.",
+      "service": "Manichiură și Pedichiură"
     },
     {
       "id": 8,
       "image": "https://images.unsplash.com/photo-1643185450492-6ba77dea00f6?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Discover the artistry of our Makeup service. Our makeup artists will create a look that enhances your features and suits the occasion.",
-      "service": "Makeup"
+      "text": "Descoperă arta serviciului nostru de machiaj. Artiștii noștri în machiaj vor crea un look care îți accentuează trăsăturile și se potrivește ocaziei.",
+      "service": "Machiaj"
     },
     {
       "id": 9,
       "image": "https://images.unsplash.com/photo-1457972729786-0411a3b2b626?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "text": "Indulge in the luxury of our Manicure with Gel Ointments. Enjoy long-lasting and vibrant nails that make a statement.",
-      "service": "Manicure with Gel Ointments"
+      "text": "Bucură-te de luxul serviciului nostru de manichiură cu ointmente pe bază de gel. Bucură-te de unghii durabile și vibrante care fac o declarație de stil.",
+      "service": "Manichiură cu Gel"
+    },
+    {
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "text": "Bucură-te de luxul serviciului nostru de masaj cu ointmente pe bază de gel. Experimentează o relaxare profundă și o atenție specială acordată fiecărui detaliu. Oferim o gamă de tehnici de masaj pentru a satisface nevoile tale specifice și pentru a te ajuta să te simți revitalizat și împrospătat.",
+      "service": "Masaj"
+    },
+    {
+      "id": 11,
+      "image": "https://images.unsplash.com/photo-1533661338746-e4e47d30dfd8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhbGF5YWdlfGVufDB8fDB8fHww",
+      "text": "Balayage este o tehnică elegantă de vopsire a părului, care adaugă dimensiune și strălucire naturală. Această metodă creează nuanțe subtile și strălucire, oferind un aspect ușor șters de soare. Este perfectă pentru un look sofisticat și natural, evidențiind frumusețea părului într-un mod rafinat și subtil.",
+      "service": "Balayage"
     }
   ]
 }

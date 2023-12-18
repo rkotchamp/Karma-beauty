@@ -28,13 +28,13 @@ function NavBar() {
         >
           <ul className="nav__links">
             <Link to="/">
-              <li className="links home">Home</li>
+              <li className="links home">Acasă</li>
             </Link>
             <Link to="/service">
-              <li className="links service">Service</li>
+              <li className="links service">Servicii</li>
             </Link>
             <Link to="/about">
-              <li className="links about">About</li>
+              <li className="links about">Despre</li>
             </Link>
             <Link to="/contact">
               <li className="links contact">Contact</li>

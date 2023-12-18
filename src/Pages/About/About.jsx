@@ -10,25 +10,31 @@ function About() {
         <div className="about-text">
           <h3>About Us</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
-            deserunt eum eius architecto aut natus odio. Eligendi quo nemo
-            officia error quos odit cumque dolorem culpa officiis id tempore
-            facere necessitatibus doloremque incidunt, libero sequi natus
-            aliquid nisi modi rerum omnis eveniet voluptate! Corrupti optio
-            labore hic quis. Sequi ducimus totam cum sint cupiditate praesentium
-            fuga corporis, dignissimos dolorum eius. Laboriosam sapiente tempora
-            minima. Dolores voluptas similique iusto unde minus maiores omnis
-            vero quaerat accusantium consequatur veniam, ex deleniti libero ut
-            neque odit fugit quas laboriosam harum? Dicta, iusto! Qui nam ab in
-            veritatis officiis numquam totam, quia repudiandae odit libero optio
-            eligendi tenetur temporibus voluptas omnis accusamus rerum esse ipsa
-            animi placeat. Vitae quaerat cupiditate fugit temporibus tempora,
-            veritatis animi molestiae eius et impedit! Architecto cupiditate
-            reiciendis provident consequuntur, ratione quos distinctio non nulla
-            vitae sed illo expedita placeat cum nihil, quis veritatis dolores
-            tempore commodi id quod quisquam. Rem ipsam doloribus architecto
-            nostrum voluptates, facere dolorem velit et maxime, consequuntur
-            officiis ea! Sapiente quas vero repellendus ullam ducimus neque
+            Bine ai venit la KarmaBeauty: Drumul tău către frumusețe și
+            fericire. Revelați-vă strălucirea interioară. Intră în lumea
+            KarmaBeauty, unde fiecare vizită este o călătorie către
+            autodescoperire și strălucire. Înconjoară-te într-o oază creată
+            exclusiv pentru răsfățul tău. Sanctuarul nostru oferă o gamă de
+            tratamente personalizate, menite să-ți reveleze strălucirea
+            interioară, să-ți revigoreze pielea și să-ți trezească încrederea.
+            Explorează arta frumuseții Mai presus de simplul răsfăț se ascunde o
+            artă - o artă ce celebrează farmecul tău unic. Alege experiențele
+            noastre de frumusețe, meticulos concepute pentru a se potrivi
+            dorințelor tale individuale. Experimentează coafurile ,masajele
+            noastre exclusive, tratamentele faciale semnătură și terapiile
+            revigorante, toate dedicate descoperirii frumuseții tale innăscute.
+            Îmbrățișează călătoria Karma Beauty. Alătură-te nouă în crearea unei
+            experiențe ce depășește standardele convenționale ale frumuseții.
+            Echipa noastră de artizani talentați, dotați cu tehnici de ultimă
+            generație și produse premium, creează o atmosferă ce emană liniște
+            și rafinament. Ridică-ți simțurile și lasă-ne să conturăm imaginea
+            aspirațiilor tale.Începe-ți transformarea Ești pregătit să
+            îmbrățișezi această călătorie captivantă? Asigură-ți momentul de
+            serenitate în sanctuarul nostru al frumuseții și liniștii.
+            Permite-ne să te ghidăm printr-o transformare ce nu doar îți
+            revitalizează înfățișarea, ci hrănește și sufletul tău. Ești gata să
+            descoperi drumul către frumusețea eternă? Călătoria ta către
+            frumusețea atemporală începe la KarmaBeauty.
           </p>
         </div>
         <div className="about-image-container">

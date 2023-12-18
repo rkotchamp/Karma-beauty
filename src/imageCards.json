@@ -1,0 +1,22 @@
+{
+  "imageCards": [
+    {
+      "imagePath": "",
+      "textParagraph": "Bună!Eșți gata să le schimbi percepția tuturor față de imaginea ta Eșți în locul potrivit. Stiliști noștrii te vor duce la statutul și imaginea pe care ti le-ai dorit mereu.",
+      "textHeader": "Servicii",
+      "btnText": "Servicii"
+    },
+    {
+      "imagePath": "received_1396168157942878.jpeg",
+      "textParagraph": "Descoperă Karma Beauty în apropierea ta și rezervă-ți următoarea programare la locația preferată",
+      "textHeader": "Locație",
+      "btnText": "Locație"
+    },
+    {
+      "imagePath": "received_713499464172698.jpeg",
+      "textParagraph": "Număr de telefon: +400732756294 Email: karmabeautybrasov@gmail.com",
+      "textHeader": "Contact",
+      "btnText": "Contact"
+    }
+  ]
+}

@@ -6,27 +6,27 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const openHours = [
-  "Monday: 9:00am - 7:00pm",
-  "Tuesday: 9:00am - 3:00pm",
-  "Wednesday: 9:00am - 4:00pm",
-  "Thursday: 9:30am - 7:30pm",
-  "Friday: 9:00am - 5:00pm",
-  "Alternate Saturday: 9:00am - 5:00pm",
+  "Luni: 6:00 - 18:00",
+  "Marți: 6:00 - 18:00 ",
+  "Miercuri: 6:00 - 18:00",
+  "Joi: 6:30 - 18:30 ",
+  "Vineri: 6:00 - 17:00",
+  "Sâmbătă Alternativă: 9:00 - 17:00",
 ];
 function Footer() {
   return (
     <div className="footer-container">
       <div className="navigation">
-        <h5 className="footer-headers">Navigation</h5>
+        <h5 className="footer-headers">Navigație</h5>
         <ul className="footer-unordered">
           <Link to="/">
-            <li>Home</li>
+            <li>Acasă</li>
           </Link>
           <Link to="/service">
-            <li>Service</li>
+            <li>Servicii</li>
           </Link>
           <Link to="/about">
-            <li>About</li>
+            <li>Despre</li>
           </Link>
           <Link to="/contact">
             <li>Contact</li>
@@ -34,7 +34,7 @@ function Footer() {
         </ul>
       </div>
       <div className="opening-hours">
-        <h5 className="footer-headers">Open Hours</h5>
+        <h5 className="footer-headers">Orar de Funcționare</h5>
         <div>
           {openHours.map((item, i) => {
             return (
@@ -46,12 +46,9 @@ function Footer() {
         </div>
       </div>
       <div className="book-now">
-        <h5 className="footer-headers">Book Now</h5>
+        <h5 className="footer-headers">Programeaz-te acum</h5>
         <div className="book-text">
-          <p>
-            Ready to love your skin again? Book in a consultation to discuss
-            your concerns and the best treatments available.
-          </p>
+          <p>Conectează-te cu noi.</p>
           <Link to="/contact">
             <button className="footer-btn">Contact Karma</button>
           </Link>

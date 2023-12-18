@@ -58,7 +58,7 @@ function Contact() {
 
       <div className="contact-controller">
         <div className="appointment-header">
-          <h1>Book Appointment</h1>
+          <h1>Fă o programare.</h1>
         </div>
         <span className="whatsappContainer">
           <Link to="https://wa.me/732756294">
@@ -68,10 +68,12 @@ function Contact() {
         <div className="contact-content">
           <form ref={form} onSubmit={sendEmail} className="form">
             <div className="input-container">
-              <label>Service</label>
+              <label>Servicii</label>
               <select name="service" id="" className="selectOptions">
-                <option value="">select your service</option>
+                <option value="">Alege un serviciu</option>
                 <option value="Decolorare">Decolorare</option>
+                <option value="Masaj">Masaj</option>
+                <option value="Balayage">Balayage</option>
                 <option value="Tuns Barbat">Tuns Barbat</option>
                 <option value="Pachet Tuns si barba">
                   Pachet Tuns si barba
@@ -92,7 +94,7 @@ function Contact() {
               </select>
             </div>
             <div className="input-container">
-              <label>Name</label>
+              <label>Nume</label>
               <input type="text" name="user_name" className="input" />
             </div>
             <div className="input-container">
@@ -101,11 +103,11 @@ function Contact() {
             </div>
 
             <div className="input-container">
-              <label>Description</label>
+              <label>Descriere</label>
               <textarea name="message" className="input" />
             </div>
             <div className="contact-btn-Container">
-              <input type="submit" value="Send" className="contact-btn" />
+              <input type="submit" value="Trimite" className="contact-btn" />
             </div>
             {error && (
               <div className="error-container">

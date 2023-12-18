@@ -4,6 +4,7 @@ import Cards from "../../Components/Cards/Cards";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
+// import image from "../../assets/received_1096520511335008.jpeg"
 
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Home.css";
@@ -32,11 +33,12 @@ function Home({ data }) {
       <div className="carousel">
         <div className="mainPageTextAndButton">
           <div className="headersLetters">
-            <h1 className="headersLetters-h1">Where Glamour</h1>
-            <h1> Meets Perfection</h1>
+            {/* {data.map} */}
+            <h1 className="headersLetters-h1">Unde stilul îți</h1>
+            <h1>întâlnește personalitatea</h1>
           </div>
           <Link to="/contact">
-            <button className="btn">Book Now</button>
+            <button className="btn">Programează-te</button>
           </Link>
         </div>
 
@@ -77,18 +79,16 @@ function Home({ data }) {
       </span>
       <div className="info-column">
         <div className="texts">
-          <h3 className="info-one">Give Your body a little Love</h3>
+          <h3 className="info-one">Drumul tău către frumusețe și fericire</h3>
           <p>
-            With over 10 years as a Registered Nurse hair and beauty, Karma
-            hairsalon By Eva Lakotos strives in making you feel confident and
-            happy with your skin. Inspired by the latest evidence based
-            treatments to achieve your aesthetic goals.
+            Descoperă-ți strălucirea la KarmaBeauty! Experimentează
+            transformarea ta într-un sanctuar al frumuseții cu peste 14 ani de
+            experienta. Rezervă acum pentru a începe călătoria ta spre
+            frumusețea eternă
           </p>
         </div>
       </div>
       <div className="cards">
-        <Cards />
-        <Cards />
         <Cards />
       </div>
       <div>
