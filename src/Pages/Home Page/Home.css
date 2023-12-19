@@ -129,7 +129,7 @@
 .headersLetters {
   font-size: 30px;
   color: #fff;
-  text-align: justify;
+  text-align: center;
 }
 
 .btn {
@@ -192,7 +192,7 @@
     width: 1.5rem;
   }
   .headersLetters {
-    font-size: 15px;
+    font-size: 12px;
   }
   .imageLogo {
     width: 100px;
