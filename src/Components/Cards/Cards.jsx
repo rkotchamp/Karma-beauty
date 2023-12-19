@@ -20,7 +20,7 @@ function Cards() {
                 <h4>{eachCard.textHeader}</h4>
                 <p>{eachCard.textParagraph}</p>
               </div>
-              <button className="info-btn"> {eachCard.btnText}</button>
+              {/* <button className="info-btn"> {eachCard.btnText}</button> */}
             </div>
           </div>
         );
